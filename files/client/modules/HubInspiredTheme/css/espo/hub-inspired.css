@@ -1425,7 +1425,7 @@ textarea {
 a {
   color: #0091ae;
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 400;
   transition: all .15s ease-out;
 }
 
@@ -9809,7 +9809,7 @@ button.close {
   width: 30px;
   height: 30px;
   border-radius: 4px;
-  border: none;
+  border: none;  
 }
 
 .table-striped .datepicker table tr td,
@@ -9824,7 +9824,7 @@ button.close {
 
 .datepicker table tr td.day:hover,
 .datepicker table tr td.focused {
-  background: #eee;
+  background: #e5f5f8;
   cursor: pointer;
 }
 
@@ -10411,7 +10411,7 @@ fieldset[disabled] .datepicker table tr td.active:hover {
 
 .datepicker table tr td span.focused,
 .datepicker table tr td span:hover {
-  background: #eee;
+  background: #e5f5f8;
 }
 
 .datepicker table tr td span.disabled,
@@ -10588,6 +10588,7 @@ fieldset[disabled] .datepicker table tr td span.active:hover:hover {
 .datepicker .prev,
 .datepicker tfoot tr th {
   cursor: pointer;
+  font-weight: 500;
 }
 
 .datepicker .datepicker-switch:hover,
@@ -10676,21 +10677,21 @@ fieldset[disabled] .datepicker table tr td span.active:hover:hover {
   padding: 3px 0 3px 5px;
   cursor: pointer;
   white-space: nowrap;
-  color: #000;
+  color: #33475b;
   list-style: none;
   margin: 0;
 }
 
 .ui-timepicker-list:hover .ui-timepicker-selected {
   background: #fff;
-  color: #000;
+  color: #33475b;
 }
 
 .ui-timepicker-list .ui-timepicker-selected:hover,
 .ui-timepicker-list li:hover,
 li.ui-timepicker-selected {
-  background: #5184b0;
-  color: #fff;
+  background: #e5f5f8;
+  color: #33475b;
 }
 
 .ui-timepicker-list li:hover .ui-timepicker-duration,
@@ -19922,7 +19923,7 @@ label.attach-file-label>input.file {
 }
 
 .stick-sub.button-container {
-  background-color: rgb(255, 255, 255);
+  background-color: transparent;
   padding-left: 0px;
   padding-right: 0px;
   padding-top: 20px;
@@ -19930,9 +19931,6 @@ label.attach-file-label>input.file {
   margin-left: 0px;
   margin-right: 0px;
   width: 100%;
-  -webkit-box-shadow: rgba(45, 62, 80, 0.12) 0px 1px 5px 0px;
-  -moz-box-shadow: rgba(45, 62, 80, 0.12) 0px 1px 5px 0px;
-  box-shadow: rgba(45, 62, 80, 0.12) 0px 1px 5px 0px;
 }
 
 @media screen and (max-width: 767px) {
@@ -20768,7 +20766,7 @@ table.table-admin-panel tr>td:first-child>div {
 
 table.table-admin-panel tr>td:first-child>div>.icon {
   position: absolute;
-  color: #999;
+  color: rgb(0, 164, 189);
   top: 1px;
 }
 
@@ -21276,9 +21274,9 @@ body>footer>p.credit {
 }
 
 .modal-header .close {
-  font-size: 31px;
+  font-size: 42px;
   font-weight: 400;
-  margin-top: -4px;
+  margin-top: -10px;
   max-height: 24px;
   opacity: 0.4;
 }
@@ -21932,7 +21930,7 @@ table.table>thead th a:hover {
   text-decoration: none;
 }
 
-tr:hover {
+table.table tr:hover {
   background-color: rgb(245, 248, 250);
 }
 
@@ -21948,7 +21946,7 @@ tr:hover {
 }
 
 /**
-  * FullCalendar
+ * FullCalendar
 */
 .calendar {
   box-shadow: rgba(45, 62, 80, 0.12) 0px 1px 5px 0px;
@@ -21970,7 +21968,17 @@ tr:hover {
 }
 
 /**
-  * Pre-loading
+ * Datepicker
+*/
+.datepicker .dow {
+  font-weight: 500;
+}
+.datepicker .prev:hover, .datepicker .next:hover, .datepicker .datepicker-switch:hover {
+  background-color: rgb(229, 245, 248);
+}
+
+/**
+ * Pre-loading
 */
 .progress.pre-loading {
   height: 10px;
@@ -21985,7 +21993,7 @@ tr:hover {
 }
 
 /**
-  * Modal - center fix
+ * Modal - center fix
 */
 .modal {
   text-align: center;
@@ -22007,7 +22015,7 @@ tr:hover {
 }
 
 /**
-  * Modal
+ * Modal
 */
 .modal-footer {
   background-color: rgb(255, 255, 255);
