@@ -1,0 +1,12 @@
+{
+    "name": "Hub Inspired Theme",
+    "description": "A HubSpot inspired theme.",
+    "author": "Novastream AB",
+    "acceptableVersions": [
+        ">=6.1.0"
+    ],
+    "version": "0.0.3",
+    "skipBackup": true,
+    "checkVersionUrl": "https://novastream.se",
+    "releaseDate": "2022-02-20"
+}
