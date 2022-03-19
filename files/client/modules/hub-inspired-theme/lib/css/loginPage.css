@@ -106,7 +106,7 @@
 }
 
 .auth-container {
-  width: 450px;
+  width: 525px;
   min-height: 330px;
   position: absolute;
   top: 25%;
@@ -117,15 +117,38 @@
 
 .auth-container .auth-header {
   text-align: center;
+  margin-top:256px;
+  padding:30px 50px;
+}
+
+.auth-container .auth-header .row {
+	display:flex;
+}
+
+.logo-wrapper {
+	display:flex;
+	align-items:center;
+	padding-left:0px;
+	padding-right:0px;
+}
+
+.title-wrapper {
+	display:flex;
+	align-items:center;
+	padding-left:0px;
+	padding-right:0px;
 }
 
 .auth-container .auth-title {
-  color: #97A4B1;
-  padding: 20px;
+  color: #425b76;
+  padding: 0px;
   line-height: 30px;
   font-size: 26px;
   font-weight: 600;
-  margin: 0;
+  margin-top:0px;
+  margin-bottom:0px;
+  margin-right:0px;
+  margin-left:10px;
 }
 
 .auth-container .auth-content {
@@ -150,20 +173,25 @@
 }
 
 @media (max-width: 767.98px) {
-  .auth-container {
-    width: 100%;
-    position: relative;
-    left: 0;
-    top: 0;
-    -webkit-transform: inherit;
-    transform: inherit;
-    margin: 0;
-    margin-bottom: 10px;
-  }
+	.auth-container {
+		width: 100%;
+		position: relative;
+		left: 0;
+		top: 0;
+		-webkit-transform: inherit;
+		transform: inherit;
+		margin: 0;
+		margin-bottom: 10px;
+	}
 
-  .auth-container .auth-content {
-    padding: 30px 25px;
-  }
+	.auth-container .auth-content {
+		padding: 30px 25px;
+	}
+  
+	.auth-container .auth-header {
+		margin-top:10px;
+		padding:30px 25px;
+	}
 }
 
 .card {
@@ -408,7 +436,10 @@ img.logo {
   height:37px;
   width:auto;
 }
-
+.hubinspired-login img.logo {
+	height:125px;
+	width:auto;
+}
 .copyright {
   font-size:12px;
 }

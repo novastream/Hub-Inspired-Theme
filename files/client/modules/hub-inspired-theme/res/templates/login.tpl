@@ -2,11 +2,18 @@
     <div class="auth-container">
         <div class="card">
             <header class="auth-header">
-                <h1 class="auth-title">
-                    <div class="logo">
-                        <img src="{{logoSrc}}" class="logo">
-                    </div>
-                </h1>
+				<div class="row">
+					<div class="col-md-4 logo-wrapper">
+						<div class="logo">
+							<img src="client/modules/hub-inspired-theme/lib/img/undraw_access_account_re_8spm.svg" class="logo">
+						</div>
+					</div>
+					<div class="col-md-6 title-wrapper">
+						<h1 class="auth-title">
+							{{applicationName}}
+						</h1>
+					</div>
+				</div>
             </header>
             <div class="auth-content">
                 <form id="login-form" onsubmit="return false;">
@@ -16,6 +23,7 @@
                     </div>
                     <div class="form-group">
                         <label for="password">{{translate 'Password'}}</label>
+						<small>(<a href="#" id="link-showhide-password">Show password</a>)</small>
                         <input type="password" name="password" id="field-password" class="form-control" tabindex="2" autocomplete="current-password">
                     </div>
                     <div class="form-group">
