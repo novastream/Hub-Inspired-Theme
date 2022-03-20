@@ -21835,11 +21835,11 @@ fieldset[disabled] .btn-text .fas {
 }
 
 .admin-right-column {
-  background-color: rgb(255, 255, 255);
-  box-shadow: rgba(45, 62, 80, 0.12) 0px 1px 5px 0px;
-  -moz-box-shadow: rgba(45, 62, 80, 0.12) 0px 1px 5px 0px;
-  -webkit-box-shadow: rgba(45, 62, 80, 0.12) 0px 1px 5px 0px;
-  border: 3px;
+  background-color: inherit;
+  box-shadow: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  border: none;
 }
 
 .admin-search-container input {
