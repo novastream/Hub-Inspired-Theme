@@ -19088,8 +19088,10 @@ ul.dropdown-menu>li.checkbox:last-child {
 }
 
 .field .checklist-label {
+  vertical-align:top;
   color: #33475b;
   margin-bottom: 0;
+  margin-top:6px;
 }
 
 .field .checklist-item-container {
@@ -21955,6 +21957,7 @@ input[type="radio"]:disabled:before,
 input[type="checkbox"]:disabled:before {
   border-color: #ccc;
   background-color: #ccc;
+  cursor:not-allowed;
 }
 input[type="radio"]:after,
 input[type="checkbox"]:after {
