@@ -3,10 +3,10 @@
     "description": "A HubSpot inspired theme.",
     "author": "Novastream AB",
     "acceptableVersions": [
-        ">=6.1.0"
+        ">=7.0.0"
     ],
-    "version": "0.0.3",
+    "version": "0.0.4",
     "skipBackup": true,
     "checkVersionUrl": "https://novastream.se",
-    "releaseDate": "2022-02-20"
+    "releaseDate": "2022-03-21"
 }
