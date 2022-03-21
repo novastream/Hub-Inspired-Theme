@@ -22101,6 +22101,13 @@ table.table tr:hover {
 #content #main>.list-container>.list>table td:first-child, #content #main>.list-container>.list>table th:first-child {
   width: 55px;
 }
+a.sort {
+	display:inline-block;
+	width:100%;
+	height:100%;
+	vertical-align:middle;
+	line-height:28px;
+}
 
 /**
   * Lists
