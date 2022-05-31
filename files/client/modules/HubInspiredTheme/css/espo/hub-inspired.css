@@ -3041,13 +3041,22 @@ th {
   margin-bottom: 19px;
 }
 
-.table>tbody>tr>td,
 .table>tbody>tr>th,
 .table>tfoot>tr>td,
 .table>tfoot>tr>th,
 .table>thead>tr>td,
 .table>thead>tr>th {
   padding: 16px 24px;
+  line-height: 1.36;
+  vertical-align: middle;
+  border-top: 1px solid rgb(223, 227, 235);
+}
+.table>tbody>tr>td {
+  padding-top:10px;
+  padding-bottom:10px;
+  padding-left:24px;
+  padding-right:24px;
+  height:40px;
   line-height: 1.36;
   vertical-align: middle;
   border-top: 1px solid rgb(223, 227, 235);
@@ -6777,9 +6786,7 @@ button.list-group-item {
 .list-group-item.active:focus,
 .list-group-item.active:hover {
   z-index: 2;
-  color: rgb(51, 71, 91);
-  background-color: rgb(245, 248, 250);
-  border-color: rgb(245, 248, 250);
+  background-color: rgb(252, 252, 252);
 }
 
 .list-group-item.active .list-group-item-heading,
@@ -17228,7 +17235,7 @@ li.ui-timepicker-selected .ui-timepicker-duration {
 
 #navbar .navbar input.global-search-input {
   width: 250px;
-  height: 40px;
+  height: 38px;
   padding-bottom: 4px;
   padding-top: 4px;
   font-size: 16px;
@@ -17341,13 +17348,17 @@ li.ui-timepicker-selected .ui-timepicker-duration {
   }
 
   #navbar .navbar ul.nav>li.tab-group>a>span.group-caret {
-    top: 17px;
+    top: 21px;
     -webkit-transform: rotate(90deg);
     -moz-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     -o-transform: rotate(90deg);
     transform: rotate(90deg);
   }
+}
+
+#navbar .navbar ul.nav>li.tab-group>a:hover>span.group-caret {
+  color:#ff7a59;
 }
 
 body {
@@ -17481,9 +17492,9 @@ body .list-buttons-container .sticked-bar {
 #navbar .navbar ul.tabs li>a>.group-caret {
   position: absolute;
   top: 13px;
-  right: 13px;
+  right: 14px;
   font-size: 12px;
-  opacity: 0.6;
+  opacity: 1.0;
 }
 
 @media screen and (min-width: 768px) {
@@ -18248,7 +18259,10 @@ label {
 }
 
 .page-header {
-  margin: 15px 0;
+  margin-top:20px;
+  margin-bottom:15px;
+  margin-left:0px;
+  margin-right:0px;
   border-bottom: 0;
   padding-bottom: 2px;
   min-height: 33px;
@@ -21851,14 +21865,6 @@ fieldset[disabled] .btn-text .fas {
   background-color: #e5f5f8;
 }
 
-.admin-right-column {
-  background-color: rgb(255, 255, 255);
-  box-shadow: rgba(45, 62, 80, 0.12) 0px 1px 5px 0px;
-  -moz-box-shadow: rgba(45, 62, 80, 0.12) 0px 1px 5px 0px;
-  -webkit-box-shadow: rgba(45, 62, 80, 0.12) 0px 1px 5px 0px;
-  border: 3px;
-}
-
 .admin-search-container input {
   background-color: rgb(255, 255, 255);
 }
@@ -22067,6 +22073,13 @@ input[type="checkbox"].filled:not(:disabled):after {
 .checkbox label, .radio label {
 	display:flex;
 	align-items:center;
+}
+
+/**
+ * Selects
+*/
+select.form-control {
+  font-size: 14px;
 }
 
 /**
