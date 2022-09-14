@@ -5,8 +5,8 @@
     "acceptableVersions": [
         ">=7.0.0"
     ],
-    "version": "0.0.7",
+    "version": "0.0.8",
     "skipBackup": true,
     "checkVersionUrl": "https://novastream.se",
-    "releaseDate": "2022-05-31"
+    "releaseDate": "2022-09-14"
 }

@@ -18117,11 +18117,6 @@ h4.panel-title span.fas.color-icon {
   grid-column-gap: 14px;
 }
 
-.modal-body .record-grid-wide {
-  margin-left: -14px;
-  margin-right: -14px;
-}
-
 @media screen and (max-width: 991px) {
   .record .record-grid {
     grid-template-columns: 100%;
@@ -19440,14 +19435,9 @@ section>p:last-child {
     margin-right: -11px;
   }
 
-  .nested-categories-container+.list-container .list {
-    margin-right: -15px;
-    margin-left: -15px;
-  }
-
   .nested-categories-container+.list-container .list>table td:first-child,
   .nested-categories-container+.list-container .list>table th:first-child {
-    padding-left: 15px;
+    padding-left: 14px;
   }
 
   .nested-categories-container+.list-container .list>table td:last-child,
@@ -22130,7 +22120,7 @@ a.sort {
   * Lists
 */
 .nested-categories-container+.list-container .list>table td:first-child, .nested-categories-container+.list-container .list>table th:first-child {
-  width: 50px;
+  width: 55px;
 }
 
 /**
