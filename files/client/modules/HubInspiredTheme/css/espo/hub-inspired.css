@@ -17355,6 +17355,7 @@ li.ui-timepicker-selected .ui-timepicker-duration {
     -ms-transform: rotate(90deg);
     -o-transform: rotate(90deg);
     transform: rotate(90deg);
+    transition: 0.3s;
   }
 }
 
