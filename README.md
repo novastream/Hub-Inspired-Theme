@@ -1,7 +1,14 @@
 # Hub-Inspired-Theme
+
 HubSpot inspired theme for EspoCRM 7.x
 
+# ARCHIVED AND REPLACED
+
+Please use our Modern theme instead, its more complete and includes the less source files.
+https://github.com/novastream/Modern-Theme
+
 # Installation
+
 - Download archive as a zip file
 - Unzip content and rezip files, scripts, LICENSE, manifest.json and README.md
 - Go to the administration area of your Espo install
@@ -14,12 +21,14 @@ HubSpot inspired theme for EspoCRM 7.x
 - Login
 
 # Upgrading
+
 - Go to administration area of your Espo install
 - Select user interface and set a stock theme as active
 - Go to plugins and disable and uninstall Hub inspired theme
 - Do installation steps above
 
 # Before reporting a issue
+
 - Make sure you've cleared Espos cache by running: php clear_cache.php
 - Logout and login again
 - Press CTRL + F5 to reload browser cache
